@@ -1,3 +1,7 @@
+##### PIC-component-simulations
+##### Dominic Ditmyer
+##### Last Updated 1/4/2026
+
 # Phtonic Integrated Ciruit Simulations (PICsim)
 This project involves the compiling of physics equation solvers (usually in the form of boundary value PDEs or Integro-Differential equations). 
 
@@ -15,5 +19,5 @@ Simulations on GDSFactory files are most conviniently done with Tidy3D open-sour
 
 #### Problem: Calculate what a Mach-Zehnder Interferometer does and how well it does it. 
 > Step 1: create a MZI geometry in gds factory
-Step 2: Upload to Tidy3d as a gds file.
-Step 3: 
+> Step 2: Upload to Tidy3d as a gds file.
+> Step 3: 
