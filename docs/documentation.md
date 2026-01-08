@@ -53,10 +53,7 @@ exploration.
 
 ## PIC Layout Design
 
-For the layout of the photonic components, I am using GDSFactory, a
-program that allows users to input Python code to output CAD files (GDS,
-OASIS, etc.) \[2\].
-
+For the layout of the photonic components, I am using GDSFactory, a program that allows users to input Python code to output CAD files (GDS, OASIS, etc.) \[2\].
 
 
 
