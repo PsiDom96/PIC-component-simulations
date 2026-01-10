@@ -7,15 +7,31 @@ Once Tidy3D is needed (e.g. to simulated diferent geometries), I will go back to
 ---
 
 ### Contents:
-1. Geometry
-2.
+1. Introduction
+2. Geometry
+3. 
+
+---
+## 1.0 | Introduction
+
+[Click here for MZI filter example](https://gdsfactory.github.io/gplugins/notebooks/workflow_1_mzi.html) from GDSFactory.
 
 
 ---
 
-## 1.0 | Geometry
+## 2.0 | Geometry
 
 GDSFactory uses objects (python Classes) called components (Class Component) to build geometries.
 
 > A `Component` is like an empty canvas, in which you can add polygons, references to other Components and ports (to connect to other components) [GDSFactory].
 
+
+
+The following creates the geometry of the MZI
+
+```python
+MZI = gf.Component()
+mzi = gf.components.mzi()
+MZI << mzi
+MZI.show()
+```

@@ -30,6 +30,11 @@ import gdsfactory as gf
 
 gf.gpdk.PDK.activate()
 ```
+To initialize a component
+```python
+c = gf.Component()
+```
+
 
 #### Functions
 
@@ -69,7 +74,7 @@ To time the execution time of a cell, you can add a `%time` on top of the cell.
 def fucntion() -> None:
     print('Runtime will display above this text')
 ```
-
+---
 ### 2. Klayout
 
 [KLayout](https://www.klayout.de/build.html) is a powerful open-source layout viewer and editor widely used in the semiconductor industry.
@@ -80,4 +85,20 @@ In the GDSFactory code-driven workflow, you define components, circuits, and ret
 >* get Klayout working
 >* go through geometry tutorial
 >* simulate a MZI
+
+
+**NOTE:** Klayout is required for `component.show()`. Without Klayout, use `component.plot()`.
+
+---
+### 3. Geometry
+
+GDSFactory uses objects (python Classes) called components (Class Component) to build geometries.
+
+> A `Component` is like an empty canvas, in which you can add polygons, references to other Components and ports (to connect to other components) [GDSFactory].
+
+```python
+c = gf.component() # intitialize component
+
+```
+
 

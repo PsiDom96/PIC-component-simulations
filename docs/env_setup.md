@@ -38,7 +38,19 @@ pip install -r requirements.txt
 >Note: At early stages of development, dependencies may be installed incrementally and frozen later using pip freeze > requirements.txt.
 
 ---
+## Jupyter Notebooks on VS Code
+Using VS Code to interact with ipynb files is much better for this project, since it brings you closer to the VS Code developement envrionment that is being set up for this project, as well as the gdsfactory tutorials. 
 
+---
+
+### Creating ipynb files in VS Code
+
+You can create a Jupyter Notebook by running the **Create: New Jupyter Notebook** command from the Command Palette (`Ctrl+Shift+P`) or by creating a new `.ipynb` file in your workspace. ([Learn more here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks))
+
+
+
+
+---
 ### Jupyter Kernel Registration (VS Code)
 
 VS Code notebooks use Jupyter kernels, which must be explicitly registered for Python virtual environments.
